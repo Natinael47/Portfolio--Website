@@ -1,0 +1,68 @@
+body{
+    background:url('image1/clothes-shop-shirt.jpg')no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+ul{
+    
+    margin:opx;
+    padding: 0px;
+    list-style:none;
+
+}
+ul li{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100rem;
+    align-content: left;
+    justify-content: left;
+    float:left;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(245, 237, 8) ;
+    opacity:.8 ;
+ 
+   
+}
+ul li a:hover{
+    background-color: green;
+    display: block;
+    
+
+}
+meanu-icon{
+    width: max-content;
+
+}
+.describe{
+    width: 30rem;
+    height: 25rem;
+    position: relative;
+    top:15rem;
+  
+}
+#pfont{
+ 
+    color: black;
+    margin: 10px;
+    size: 30px;
+    font-family:open sans,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bu-enter:hover{
+    transform:scale(1,2);
+    background-color: rgb(67, 42, 165);
+    
+}
+
+
+
+.navbar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center;
+    
+   
+}
+

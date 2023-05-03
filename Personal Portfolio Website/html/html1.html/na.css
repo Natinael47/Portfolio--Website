@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:montserrat;
+}
+
+nav{
+    background-color:#0082e6 ;
+    height: 80px;
+    width: 100rem; 
+}
+
+
+label.logo{
+    color: white;
+    font-size:35px ;
+    line-height: 80px;
+    font-weight:bold ;
+
+   
+}
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+ nav ul li{
+    display:inline-block ;
+    line-height: 80px;
+    margin:0 5px;
+
+ }
+
+ 
+ nav  ul li a{ 
+    color:white;
+    font-size :17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+  }
+
+  a.active,a:hover{
+    background: #1b9bff; 
+    transition: .5s;
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer; 
+    display: none;
+
+
+  }
+
+  #check{
+
+    display: none;
+  }
+
+  @media(max-width:952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+
+
+  @media(max-width:858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{ 
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left:0;
+      text-align:center;
+
+
+    }
+    nav ul  li{
+      display: block;
+    }
+
+  }
+
+  nav ul li a{
+    font-size:20px;
+  }
+  a:hover,a.active{
+    background:;
+  }
+
+
+
+
+
+
+/*
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:montserrat;
+}
+
+nav{
+    background-color:#0082e6 ;
+    height: 80px;
+    width: 100rem; ;
+}
+
+
+label.logo{
+    color: white;
+    font-size:35px ;
+    line-height: 80px;
+    font-weight:bold ;
+
+   
+}
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+ nav ul li{
+    display:inline-block ;
+    line-height: 80px;
+    margin:0 5px;
+
+ }
+
+ 
+ nav  ul li a{ 
+    color:white;
+    font-size :17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+  }
+
+  a.active,a:hover{
+    background: #1b9bff; 
+    transition: .5s;
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer; 
+    display: none;
+
+
+  }
+
+  #check{
+
+    display: none;
+  }
+
+  @media(max-width:952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+
+
+  @media(max-width:858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{ 
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left:0;
+      text-align:center;
+
+
+    }
+    nav ul  li{
+      display: block;
+    }
+
+  }
+  nav ul li a{
+    font-size:20px;
+  }
+
+  */
+
+ 
+
+
+
+
+
+
+
+
+/*ul{
+    
+    margin:opx;
+    padding: 0px;
+    list-style:none;
+
+}
+ul li{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100rem;
+    align-content: left;
+    justify-content: left;
+    float:left;
+    width: 200px;
+    height: 40px;
+
+    opacity:.8 ;
+ 
+   
+}
+ul li a:hover{
+    background-color: rgb(237, 237, 0);
+    display: block;
+    
+
+}*/
+
+
+
+body{
+    background:url('image1/clothes-shop-shirt.jpg')no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+   
+}
+
+
+
+.card{
+    background-color: rgb(245, 236, 236);
+    
+    margin-top: 60px;
+    width: 20%;
+    height: 10rem;
+   
+    color:black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 16px black;
+
+    display: inline-block;
+
+    margin-left: 50px;
+
+
+
+}
+.naty:hover{
+   
+    transform: scale(1.2);
+    border-radius: 5px;
+    box-shadow: 2px 2px 16px solid black;
+ 
+    
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image img{
+    width: 100%;
+}
+
+.title{
+    text-align:center;
+    padding: 2px;
+}
+
+.describe{
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    border-bottom: 30px;
+    background-color: beige;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+    transform: scale(2);
+    background-color: brown;
+    transform: 3s;
+
+}
+
+.main{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.main-button{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 10rem;
+}
+
+img{
+    height: 200px;;
+}
+
+
+
